@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: rgb(158, 59, 197);
 }
 
 .logo {
@@ -15,7 +16,7 @@
   filter: drop-shadow(0 0 2em #646cffaa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #61dafbaa); 
 }
 
 @keyframes logo-spin {
@@ -35,8 +36,12 @@
 
 .card {
   padding: 2em;
+  border: 1px solid #ccc;
+  background-color: black;
+  margin-bottom: 10px;
+  border-radius: 8px;
 }
 
 .read-the-docs {
-  color: #888;
+  color: whitesmoke;
 }
