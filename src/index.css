@@ -54,12 +54,13 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: background-color 0.25s;
 }
 button:hover {
-  border-color: #e55ea1;
-  background-color:rgb(158, 59, 197)
+  font-weight: 500;
+  background-color: rgb(97, 32, 129)
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -104,9 +105,10 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   border: 1px solid whitesmoke;
   margin: 0.5em;
-  padding: 1.5em 0.5em;
+  padding: 1em 0.5em;
   border-radius: 8px;
   transition: background-color 0.25s;
   background-color: rgb(158, 59, 197);
